@@ -1,0 +1,118 @@
+
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Lexend:wght@100..900&family=Poetsen+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Lexend:wght@100..900&family=Poetsen+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Lexend:wght@100..900&family=Poetsen+One&display=swap');
+
+
+@font-face {
+    font-family:'droid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+ margin: auto;
+ text-align: auto;   
+}
+
+header{
+
+    background-image: linear-gradient(#51B11D ,#4C862D ,#283322);
+    text-align: center;
+    color: white;
+      font-family: "Lexend", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+    
+      
+    padding: 15px 20px 20px 20px;
+    height: 130px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.475);     
+
+}
+#cabeca{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-size: large;
+    font-style: normal;
+      
+}
+h1{
+    size: 100%;
+    background-color: #9c37a500;
+    text-align:center ;
+    padding: 15px 30px 30px 30px;
+    margin: 0px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.475);
+
+}
+#links{
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    background-color: #283322;
+    text-shadow: 10px black;
+    font-family: "Lexend", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 2px;
+      font-style: normal;
+    padding: 15px 0px 0px 0px;
+}
+.home{
+    color: white;
+    margin: 5px;
+    padding: 3px;
+    
+}
+.home:hover {
+    background-color: #51B11D;
+    border-radius: 2px;
+}
+
+main{
+   margin: auto;
+   min-width: 300px;
+   max-width: 900px;
+   background-color: rgb(208, 118, 0);
+   box-shadow: black;
+
+    
+}
+section{
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    background-size: auto;
+    border: 4px;
+    margin: 0px;
+    box-shadow: 0px 0px 10px  black;
+    
+}
+article{
+}
+h2{
+    font-family:'droid';
+    font-size: 2em;
+    font-weight: normal;
+    padding-bottom: 20px;
+    color: #4E8A2E;
+    
+}
+#texto1{
+    text-indent:1em;
+}
+h3{
+    margin: 20px 20px 20px 0px;
+    color: #4C862D;
+    background-image: linear-gradient(rgb(164, 239, 129) , rgb(255, 255, 255));
+    font-family:'droid';
+    border-radius: 6px;
+}
+.linkt{
+    background-color: #6fa155;
+}
+main img{
+    width: 100%;
+}
