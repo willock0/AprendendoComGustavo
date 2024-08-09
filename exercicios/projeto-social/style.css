@@ -13,7 +13,7 @@ body{
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: fixed;
-   
+   background-size: cover;
 }
 main{
     position: relative;
@@ -36,7 +36,7 @@ iframe#tela {
     position: relative;
     top: 77px;
     left: 22px;
-    width: 255px;
+    width: 254px;
     height: 450px;
 }
 section#redes img{
