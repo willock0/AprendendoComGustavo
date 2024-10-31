@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(65, 65, 65);
+}
+header , header > div{
+    flex-flow: column nowrap;
+}
+
+header > h1 {
+    flex-basis: 50px;
+}
+
+header > div > a {
+    width: 90vw;
+}
+span{
+    cursor: pointer;
+}
+#navegacao{
+    display: none;
+}
